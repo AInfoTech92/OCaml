@@ -9,3 +9,5 @@ let rec last l =
 	| h::t -> last t;;
 
 last [1;2;3];;
+last [ "a" ; "b" ; "c" ; "d" ];;
+last [];;
