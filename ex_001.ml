@@ -8,6 +8,5 @@ let rec last l =
 	| h::[] -> Some h
 	| h::t -> last t;;
 
-last [1;2;3];;
 last [ "a" ; "b" ; "c" ; "d" ];;
 last [];;

@@ -10,6 +10,5 @@ let length l =
 	in
 		aux 0 l;;
 
-length [1;2;3];;
 length [ "a" ; "b"; "c"; "d"; "e" ];;
 length [ "a" ];;

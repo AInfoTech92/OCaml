@@ -8,6 +8,5 @@ let rec at i l =
 	| h::t when i = 1 -> Some h
 	| h::t -> at (i-1) t;;
 
-at 1 [1;2;3];;
 at 3 [ "a" ; "b"; "c"; "d"; "e" ];;
 at 3 [ "a" ];;
